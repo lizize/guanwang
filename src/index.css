@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+a {
+  text-decoration: none; /* 去除下划线 */
+  color: inherit; /* 使用继承的颜色，通常与父元素文本颜色一致 */
+}

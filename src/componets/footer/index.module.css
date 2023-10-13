@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    height: 456px;
+    background-color: black;
+    color: white;
+}
+.footerTop{
+    width: 100%;
+    height: 306px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.address{
+    width:766px;
+    height: 134px;
+    margin-right: 20px;
+}
+.footerLogo{
+    width:383px;
+    height: 129px;
+    background: url('../../public//images/logo.png') no-repeat;
+    background-size: 100% 100%;
+}
+.footerbottom{
+    width: 100%;
+    height: 151px;
+
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

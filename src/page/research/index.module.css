@@ -1,0 +1,75 @@
+.main{
+    width: 100%;
+    /* height: 100vh; */
+   
+}
+.topPlane{
+    width: 100%;
+    height:852px ;
+    background: url('../../public/images/searchBG.jpeg') no-repeat center;
+    background-size: cover;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.articlePlane{
+    width: 100%;
+    padding-top: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.articleitem{
+    height: 421px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleitemLeft{
+    width: 768px;
+    height: 421px;
+
+ 
+}
+.articleitemRight{
+    width: 381px;
+    height: 421px;
+    display: grid;
+    grid-template-rows:215px 168px  ;
+    grid-template-columns: 218px 126px;
+    gap: 10px;
+    grid-template-areas: "a a" " b c";
+}
+.articleitemline{
+    width: 1200px;
+    height: 111px;
+    
+}
+.xuline{
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
+.line{
+    width: 100%;
+    margin: 15px 0px;
+    border-bottom: solid 1px black;
+}
+.articleitem1{
+    height: 306px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.articleitemLeft1{
+    width: 768px;
+    height: 306px;
+}
+.articleitemRight1{
+    width: 381px;
+    height: 306px;
+}
